@@ -42,11 +42,7 @@ void buildingURL() {
   String edmontonId = "id=5946768";
   String calgaryId = "id=5913490";
   String redDeerId = "id=6118158";
-  //CAUTION: easier to use city name, see
-  // https://openweathermap.org/api
-  // https://openweathermap.org/current#name
   //
-  //Other Place URLs
   URLCurrentEdmonton = baseURL_Current+edmontonId+and+apiKey+and+mode+and+unitMetric;
   URLForecastEdmonton = baseURL_Forecast+edmontonId+and+apiKey+and+mode+and+unitMetric;
   URLCurrentCalgary = baseURL_Current+calgaryId+and+apiKey+and+mode+and+unitMetric;
